@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="c_v.css">
+ <title>My CV</title>
+</head>
+<body style="background: linear-gradient(90deg, black 10%, #8cc8ac 90%) ";>
+ <header>
+ <nav class="navegacion" id="nav">
+ <ul class="menu">
+ <li><a href=#nav>Introduction</a></li>
+ <li><a href=#soy>Abaout me</a></li>
+ <li><a href=#T1>Services</a></li>
+ <li><a href=#contacto>Contact</a></li>
+ </ul>
+ </nav>
+ </header>
+ <section>
+ <h1>Emir Zahir Zatta Miranda</h1>
+ </section>
+ <div class="foto">
+ <img src="photo_cv.png" width="300px" height="300px" style="border-radius:10px";>
+ </div>
+ <div class="animated-text">
+ <div class="line">Web Design</div>
+ <div class="line">PHP </div>
+ <div class="line">HTML</div>
+ <div class="line">CSS</div>
+ <div class="line">Python</div>
+ <div class="line">Java</div>
+ <div class="line">MySql</div>
+ </div><br><br><br><br><br><br><br>
+ <div class="soy">
+ <p><h2 id="soy">A little bit about me </h2></p><br><br><br>
+ <p>Hi I am Emir and I am a Front End developer but I am also a Python and Java developer.</p><br>
+ <p>I am a student of the careers in Software Development, such as Free Software and Computer Management of the
+ Company in the Pascal Superior Institute (Córdoba) and the National University of the Litoral (Santa Fe) both in the distance modality.
+    And although I do not have work experience, I am eager and willing to continue growing and developing in order to obtain my
+    first position in the profession that I am so passionate about.</p><br>
+ <p>I can speak English and Italian and I am learning German, Chinese and Hawaiian.</p>
+
+ </div><br><button><a href=#nav>Initial</a></button><br><br><br><br><br><br><br><br><br><br><br><br>
+ <div class="servicios">
+
+ <div class="wrapper">
+ <div class="title" id="contacto"><h1>CONTACT ME</h1>
+ </div>
+ <body class="contactBody">
+
+ <form action="enviar.php" method="post" class="form_contact">
+ <input type="text" class="name entry " name="nombre" placeholder="Your Name" required/>
+
+ <input type="text" class="email entry" name="correo" placeholder="Email" required/>
+
+ <textarea class="message entry" placeholder="Menssaje" required></textarea>
+
+ <button class="submit entry" onclick="Gracias()">Submit</button>
+ </form>
+ <div class="shadow"></div>
+ </div>
+ <script src="app.js"></script>
+</body>
+
+</html>
